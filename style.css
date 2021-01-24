@@ -1,0 +1,86 @@
+
+body{
+    margin:auto;
+    max-width:500px;
+    overflow: auto;
+    background-color:#535350;
+}
+
+.button-sections{
+    margin: auto;
+    width: 300px;
+    border: 3px solid black;
+    padding: 20px;
+    line-height:500px;
+    border-radius: 10px;
+}
+
+.button-a{
+    background-color: #4CAF50; 
+    border: none;
+    color: black;
+    padding: 10px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button-b{
+    background-color: #008CBA; 
+    border: none;
+    color:  black;
+    padding: 10px 26px;    
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button-c{
+    background-color: #f44336; 
+    border: none;
+    color:  black;
+    padding: 10px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button-d{
+    background-color: #e7e7e7; 
+    border: none;
+    color:  black;
+    padding: 10px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button-e{
+    background-color: #ffff33; 
+    border: none;
+    color:  black;
+    padding: 10px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button-f{
+    background-color: #d24dff;
+    border: none;
+    color:  black;
+    padding: 10px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+h1{
+    text-align:center;
+}

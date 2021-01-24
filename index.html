@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> sound player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <audio id="letter_A">
+        <source src="sounds/boom.wav" type="audio/wav">
+    </audio>
+
+    <audio id="letter_B">
+        <source src="sounds/clap.wav" type="audio/wav">
+    </audio>
+
+    <audio id="letter_C">
+        <source src="sounds/hihat.wav" type="audio/wav">
+    </audio>
+
+    <audio id="letter_D">
+        <source src="sounds/kick.wav" type="audio/wav">
+    </audio>
+
+    <audio id="letter_E">
+        <source src="sounds/openhat.wav" type="audio/wav">
+    </audio>
+
+    <audio id="letter_F">
+        <source src="sounds/ride.wav" type="audio/wav">
+    </audio>
+
+        <h1> Sound Player</h1>
+ 
+
+    <container>
+        <row class="button-sections">
+            <button type="button" class="button-a" onclick="playA()">A</button>
+            <button type="button" class="button-b" onclick="playB()">B</button>
+            <button type="button" class="button-c" onclick="playC()">C</button>
+            <button type="button" class="button-d" onclick="playD()">D</button>
+            <button type="button" class="button-e" onclick="playE()">E</button>
+            <button type="button" class="button-f" onclick="playF()">F</button>
+        </row>
+    </container>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
